@@ -24,6 +24,11 @@ public class Program {
 			System.out.println(obj);
 		}
 		
+		System.out.println("=== Test 3: Seller findById===/n");
+		list = sellerDao.findAll();
+		for(Seller obj: list) {
+			System.out.println(obj);
+		}
 	}
 
 }
